@@ -22,7 +22,10 @@
         <div>
             <h3>Preencha o formulário abaixo</h3>
             <form>  <!--Tag para fomrulário-->
-                <label>Nome</label>
+                <!--Tag autofocus (o site inicia com o formulário selecionado para digitar)-->
+                <!--Tag required (é obrigatório preencher o formulário)-->
+                <!--Tag placeholder (texto guia dentro da caixa do formulário)-->
+                <label>Nome</label>  
                 <input type="text" name="name" required placeholder="Nome Completo" autofocus>
                 <label>E-mail</label>
                 <input type="email" name="email" required placeholder="Digite o e-mail" autofocus>
@@ -30,20 +33,24 @@
             </form>
         </div>
         <div>
+            <!--Tag contenteditable (Possibilidade de modificar  texto pelo site)-->
             <p contenteditable="true">Este é um paragráfo simples e editavél.</p>
         </div>
     </article>
-    <aside>
+    <aside> 
         <p>Confira os nossos produtos, <a href="#">Clicando aqui</a></p>
     </aside>
-    <details open="open">
+    <details open="open">     <!--Tag details e summary (Detalhar oou ocultar topico)-->
+
         <summary>Cachorro</summary>
         <p>É um mamífero de 4 patas e também é um animal doméstico</p>
     </details>s
     <form>
         <p>Animais</p>
-        <input list="animais" name="animal">
-        <datalist id="animais">
+        <input list="animais" name="animal">     <!--Tag input list (atribuir elementos ao datalist)-->
+
+        <datalist id="animais">   <!--Tag datalist (lista de opções)-->
+
             <option value="Cachorro"></option>
             <option value="Gato"></option>
             <option value="Cavalo"></option>
@@ -51,8 +58,9 @@
 
         </datalist>
     </form>  
-    <p>Barra de loading...</p>
-    <progress value="63" max="100" ></progress>
+    <p>Barra de loading...</p> 
+    <progress value="63" max="100" ></progress> <!--Tag progresser (Adicionar barra de loading)-->
+
     <footer>Rodapé</footer>
 </body>
 
