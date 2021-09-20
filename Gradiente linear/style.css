@@ -14,5 +14,12 @@ margin: 20;
     background-image: linear-gradient(to right,purple, blue);
 }
 .gradient3{
-    background-image: linear-gradient(to left,purple, blue);
+    background-image: linear-gradient(to left,rgb(0, 255, 76), rgb(0, 255, 234));
 }
+.gradient4 {
+    background-image: linear-gradient(to top, rgb(0, 255, 76), rgb(0, 255, 234))
+}
+.gradient5 {
+    background-image: linear-gradient(to top right, rgb(0, 255, 76), rgb(250, 121, 0), rgb(0, 255, 234))
+}
+
